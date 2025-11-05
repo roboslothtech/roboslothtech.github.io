@@ -1,0 +1,90 @@
+html {
+    text-size-adjust: 100%;
+}
+
+body {
+    display: block;
+    width: 100vw;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    font-family: Couture, Arial,'Gill Sans', sans-serif;
+}
+
+strong {
+  font-family: Arial, 'Gill Sans', sans-serif;
+  font-weight: 700; /* 700 = Bold */
+}
+em, i {
+  font-style: italic;
+}
+
+p {
+    font-size: 16px;
+}
+
+.translucent-box {
+    position: static;
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.text-box {
+    position: sticky;
+    top: 0;
+    left: 5%;
+    width: 90vw;
+    padding-top: 7.5vw;
+}
+
+#intro .text-box {
+    padding-top: 5.5em;
+}
+
+#press_interviews .text-box {
+    padding-bottom: 7em;
+}
+
+.scrolly.active, .scrolly:focus {
+    color: rgba(0, 0, 0, 1.0); /* Example color, change as needed */
+}
+
+.project-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    overflow: hidden;
+    margin-top: 3.5em;
+}
+
+.project-box img {
+    width: 100%;
+    height: auto;
+    display: block; /* This removes any default whitespace below the image */
+}
+
+
+.vid_class {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Standard aspect ratio for YouTube videos */
+
+}
+.pdf_class {
+    width: 100%;
+    aspect-ratio: 0.8; /* width to height*/
+
+}
+
+.description {
+    width: 90%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* Additional styling */
+}

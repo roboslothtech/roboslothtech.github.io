@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robosloth</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/icon180.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="icon/icon128.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .lang-toggle {
+            cursor: pointer;
+            background: none;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 0.9rem;
+            margin-left: 1rem;
+            transition: 0.2s;
+        }
+
+        .lang-toggle:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="floater">
+        <a href="index.html">
+            <img id="logo" class="logo" role="img" alt="Robosloth" data-en="images/Logo_2w_background.png"
+                data-zh="images/Logo_2w_CN.png" src="images/Logo_2w_background.png">
+        </a>
+        <ul>
+            <li><a href="#intro" class="scrolly hide-s1 lang" data-en="Our philosophy" data-zh="理念">Our philosophy</a>
+            </li>
+            <li><a href="#careers" class="scrolly hide-s2 lang" data-en="Careers" data-zh="加入树懒">Careers</a></li>
+            <li><a href="#contact" class="scrolly hide-s3 lang" data-en="Contact" data-zh="联系">Contact</a></li>
+            <li><a href="#publications" class="scrolly hide-s4 lang" data-en="Publications"
+                    data-zh="团队文献">Publications</a></li>
+            <li><button id="langToggle" class="lang-toggle persistent">中 / EN</button></li>
+        </ul>
+
+    </nav>
+
+    <section id="intro">
+        <div class="translucent-box">
+            <div class="text-box">
+                <h3 class="lang" data-en="Our Philosophy" data-zh="理念">Our Philosophy</h3>
+                <p class="lang"
+                    data-en="We believe robots should work with the world — not against it. Our machines move with purpose, adapting naturally to their tasks and environments."
+                    data-zh="我们相信，机器人应与其环境协同，彼此助力，而非对抗。树懒科技的机器以目标为导向，能够自然而然地适应任务与环境的变化。">
+                    We believe robots should work with the world — not against it. Our machines move with purpose,
+                    adapting naturally to their tasks and environments.
+                </p>
+                <p class="lang"
+                    data-en="Built on the principles of necessity and balance, our systems act precisely as the task demands — nothing more, nothing less."
+                    data-zh="以“必要”与“平衡”为原则，我们的系统精准地履行所需——不多一分，不少一分。">
+                    Built on the principles of necessity and balance, our systems act precisely as the task demands —
+                    nothing more, nothing less.
+                </p>
+                <p class="lang"
+                    data-en="<strong>Robosloth Technologies</strong> stands for a new kind of robotics: purposeful by design, safe by nature, and always in harmony with the world it serves."
+                    data-zh="<strong>树懒科技</strong> 代表着一种全新的机器人理念：以目的为核心进行设计，以安全为本质构建系统，并始终与世界保持和谐共生。">
+                    <strong>Robosloth Technologies</strong> stands for a new kind of robotics: purposeful by design,
+                    safe by nature, and
+                    always in harmony with the world it serves.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="press_interviews">
+        <div class="opaque-box">
+            <div class="text-box">
+                <h3 class="lang" data-en="Press Interviews" data-zh="媒体报道">Press Interviews</h3>
+                <p>Aaron Tremper. (2023). "<a
+                        href="https://www.snexplores.org/article/robots-mission-help-birds-tech-environment-ecology-habitat">Meet
+                        robots on a mission to help birds: A perching spy</a>". <em> Science News Explores</em>.</p>
+                <p>Joanna Wormald. (2017). "<a
+                        href="https://f001.backblazeb2.com/file/felixonlinearchive/issues/pdfs/felix_1678.pdf">New laws
+                        introduced to regulate drones</a>". <em>Felix</em>, Issue 1678.</p>
+            </div>
+        </div>
+    </section> -->
+    <section id="careers">
+        <div class="opaque-box">
+            <div class="text-box">
+                <h3 class="lang" data-en="Careers" data-zh="加入树懒">Careers</h3>
+                <!-- <p class="lang"
+                    data-en="email (UK): robosloth@edengroup.co"
+                    data-zh="电子邮箱 (英国): robosloth@edengroup.co">
+                    email (UK): robosloth@edengroup.co
+                </p>
+                <p class="lang"
+                    data-en="email (China): robosloth@163.com"
+                    data-zh="电子邮箱 (中国): robosloth@163.com">
+                    email (China): robosloth@163.com
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="opaque-box">
+            <div class="text-box">
+                <h3 class="lang" data-en="Contact Us" data-zh="联系">Contact Us</h3>
+                <div class="contact-lines">
+                    <div class="contact-row">
+                        <span class="lang" data-en="email (UK):" data-zh="电子邮箱（英国）：">email (UK):</span>
+
+                        <!-- only the icon is a link -->
+                        <a href="mailto:robosloth@edengroup.co" class="email-link">
+                            <img class="email-icon" alt="Email icon" src="images/email.png">
+                        </a>
+
+                        <!-- plain text (not clickable) -->
+                        <span class="lang email-text" data-en="robosloth@edengroup.co" data-zh="robosloth@edengroup.co">
+                            robosloth@edengroup.co
+                        </span>
+                    </div>
+
+                    <div class="contact-row">
+                        <span class="lang" data-en="email (China):" data-zh="电子邮箱（中国）：">email (China):</span>
+
+                        <a href="mailto:robosloth@163.com" class="email-link">
+                            <img class="email-icon" alt="Email icon" src="images/email.png">
+                        </a>
+
+                        <span class="lang email-text" data-en="robosloth@163.com" data-zh="robosloth@163.com">
+                            robosloth@163.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="opaque-box">
+            <div class="text-box">
+                <h3 class="lang" data-en="Publications" data-zh="团队文献">Publications</h3>
+                <p>Wang, Z., Zheng, P., Kocer, B. B., & Kovac, M. (2023). Drone-Based Solar Cell Inspection With
+                    Autonomous Deep Learning. <em>Infrastructure Robotics: Methodologies, Robotic Systems and
+                        Applications.</em></p>
+                <p>Zheng, P., Xiao, F., Nguyen, P. H., Farinha, A., & Kovac, M. (2023). Metamorphic aerial robot capable
+                    of mid-air shape morphing for rapid perching. <em>Scientific Reports</em>, 13(1), 1297.</p>
+                <p>Kocer, Basaran Bahadir, et al. "Forest drones for environmental sensing and nature conservation."
+                    <em>2021 Aerial Robotic Systems Physically Interacting with the Environment (AIRPHARO)</em>. IEEE,
+                    2021.
+                </p>
+                <p>Xiao, F., Zheng, P., Di Tria, J., Kocer, B. B., & Kovac, M. (2021). Optic flow-based reactive
+                    collision prevention for mavs using the fictitious obstacle hypothesis. <em>IEEE Robotics and
+                        Automation Letters</em>, 6(2), 3144-3151.</p>
+                <p>Farinha, A., Zufferey, R., Zheng, P., Armanini, S. F., & Kovac, M. (2020). Unmanned aerial sensor
+                    placement for cluttered environments. <em>IEEE Robotics and Automation Letters</em>, 5(4),
+                    6623-6630.</p>
+                <p>Zheng, P., Tan, X., Kocer, B. B., Yang, E., & Kovac, M. (2020). TiltDrone: A fully-actuated tilting
+                    quadrotor platform. <em>IEEE Robotics and Automation Letters</em>, 5(4), 6845-6852.</p>
+                <p>Zhang, K., Zhu, Y., Lou, C., Zheng, P., & Kovač, M. (2019, April). A design and fabrication approach
+                    for pneumatic soft robotic arms using 3D printed origami skeletons. In <em>2019 2nd IEEE
+                        International Conference on Soft Robotics (RoboSoft)</em> (pp. 821-827). IEEE.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/local.js"></script>
+</body>
+
+</html>
