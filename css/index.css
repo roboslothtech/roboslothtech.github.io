@@ -8,6 +8,7 @@ body {
     display: block;
     width: 100%;
     background-color: #ffffff;
+    background-image: url('images/robot_on_tree.png'); /* ← add this line */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right bottom;
