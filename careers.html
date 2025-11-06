@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robosloth</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/icon180.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="icon/icon128.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .lang-toggle {
+            cursor: pointer;
+            background: none;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 0.9rem;
+            margin-left: 1rem;
+            transition: 0.2s;
+        }
+
+        .lang-toggle:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="floater">
+        <a href="index.html">
+            <img id="logo" class="logo" role="img" alt="Robosloth" data-en="images/Logo_2w_background.png"
+                data-zh="images/Logo_2w_CN.png" src="images/Logo_2w_background.png">
+        </a>
+        <ul>
+            <li><a href="#intro" class="scrolly hide-s1 lang" data-en="Our philosophy" data-zh="理念">Our philosophy</a>
+            </li>
+            <li><a href="#careers" class="scrolly hide-s2 lang" data-en="Careers" data-zh="加入树懒">Careers</a></li>
+            <li><a href="#contact" class="scrolly hide-s3 lang" data-en="Contact" data-zh="联系">Contact</a></li>
+            <li><a href="#publications" class="scrolly hide-s4 lang" data-en="Publications"
+                    data-zh="团队文献">Publications</a></li>
+            <li><button id="langToggle" class="lang-toggle persistent">中 / EN</button></li>
+        </ul>
+
+    </nav>
+
+    <section id="careers">
+        <div class="opaque-box">
+            <div class="text-box">
+                <h3 class="lang" data-en="Careers" data-zh="加入树懒">Careers</h3>
+
+                <h4 class="lang" data-en="Senior Control Engineer (Robotics)" data-zh="高级控制工程师（机器人方向）">Senior Control
+                    Engineer (Robotics)</h4>
+
+                <p class="lang"
+                    data-en="Robosloth Technologies is seeking a Senior Control Engineer to lead the development and validation of control systems for advanced robotic platforms. The candidate will work closely with cross-disciplinary teams to achieve high-performance, reliable, and adaptive robotic behavior."
+                    data-zh="树懒科技正在招聘高级控制工程师，负责先进机器人平台的控制系统开发与验证。该岗位将与跨学科团队紧密合作，实现高性能、可靠且自适应的机器人运动控制。">
+                    Robosloth Technologies is seeking a Senior Control Engineer to lead the development and validation
+                    of control systems for advanced robotic platforms. The candidate will work closely with
+                    cross-disciplinary teams to achieve high-performance, reliable, and adaptive robotic behavior.
+                </p>
+
+                <p><strong class="lang" data-en="Responsibilities:" data-zh="主要职责：">Responsibilities:</strong></p>
+                <ul>
+                    <li class="lang"
+                        data-en="Design and implement control algorithms for multi-degree-of-freedom aerial and ground robotic systems."
+                        data-zh="设计并实现多自由度空中及地面机器人系统的控制算法。">
+                        Design and implement control algorithms for multi-degree-of-freedom aerial and ground robotic
+                        systems.
+                    </li>
+                    <li class="lang"
+                        data-en="Develop and tune real-time control software for dynamic, adaptive behavior."
+                        data-zh="开发并调试实时控制软件，实现动态与自适应行为。">
+                        Develop and tune real-time control software for dynamic, adaptive behavior.
+                    </li>
+                    <li class="lang"
+                        data-en="Integrate control modules with perception, planning, and hardware systems."
+                        data-zh="将控制模块与感知、规划及硬件系统集成。">
+                        Integrate control modules with perception, planning, and hardware systems.
+                    </li>
+                    <li class="lang" data-en="Lead system identification, modeling, and field validation campaigns."
+                        data-zh="主导系统建模、辨识与实地验证工作。">
+                        Lead system identification, modeling, and field validation campaigns.
+                    </li>
+                </ul>
+
+                <p><strong class="lang" data-en="Requirements:" data-zh="任职要求：">Requirements:</strong></p>
+                <ul>
+                    <li class="lang" data-en="Ph.D. or M.Sc. in Robotics, Control Engineering, or related field."
+                        data-zh="机器人、控制工程或相关领域博士或硕士学历。">
+                        Ph.D. or M.Sc. in Robotics, Control Engineering, or related field.
+                    </li>
+                    <li class="lang" data-en="Strong background in nonlinear, robust, or adaptive control."
+                        data-zh="具备非线性、鲁棒或自适应控制领域扎实的理论基础。">
+                        Strong background in nonlinear, robust, or adaptive control.
+                    </li>
+                    <li class="lang" data-en="Experience with C++/Python and real-time control frameworks."
+                        data-zh="熟悉 C++/Python 编程及实时控制框架。">
+                        Experience with C++/Python and real-time control frameworks.
+                    </li>
+                    <li class="lang"
+                        data-en="Hands-on experience with experimental robotics or embedded systems preferred."
+                        data-zh="具有机器人实验或嵌入式系统实际经验者优先。">
+                        Hands-on experience with experimental robotics or embedded systems preferred.
+                    </li>
+                </ul>
+
+                <p class="lang"
+                    data-en="Please send your application (CV and brief cover letter) to <a href='mailto:careers@robosloth.tech'>careers@robosloth.tech</a>."
+                    data-zh="请将您的简历及简要求职信发送至 <a href='mailto:careers@robosloth.tech'>careers@robosloth.tech</a>。">
+                    Please send your application (CV and brief cover letter) to <a
+                        href='mailto:careers@robosloth.tech'>careers@robosloth.tech</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/local.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+
+</html>
